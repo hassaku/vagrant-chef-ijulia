@@ -1,0 +1,14 @@
+{
+  "python" : {
+    "version" : "2.7.6"
+  },
+  "run_list" : [
+    "recipe[apt]",
+    "recipe[apt-repo]",
+    "recipe[timezone]",
+    "recipe[python]",
+    "recipe[julia]",
+    "recipe[ipython]",
+    "recipe[ijulia]"
+  ]
+}

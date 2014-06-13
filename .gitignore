@@ -1,0 +1,7 @@
+/cookbooks/
+/vendor/
+.bundle/
+.chef/
+.vagrant/
+Berksfile.lock
+Gemfile.lock
